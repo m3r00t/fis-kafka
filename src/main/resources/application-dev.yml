@@ -15,10 +15,10 @@ endpoints:
     enabled: true
     
 zookeeper:
-  host: my-cluster-zookeeper
+  host: my-cluster-zookeeper-client
   port: 2181
 kafka:
-  host: my-cluster-kafka
+  host: my-cluster-kafka-bootstrap
   port: 9091
   topic: fis-kafka
   key: 0
